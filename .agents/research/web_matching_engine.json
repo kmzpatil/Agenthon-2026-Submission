@@ -1,0 +1,1008 @@
+[
+    {
+        "url": "https://news.ycombinator.com/item?id=23348163",
+        "title": "Hacker News",
+        "meta_description": "",
+        "headings": {},
+        "content": "Hacker News\nHacker News\nnew\n|\npast\n|\ncomments\n|\nask\n|\nshow\n|\njobs\n|\nsubmit\nlogin\nGuidelines\n|\nFAQ\n|\nLists\n|\nAPI\n|\nSecurity\n|\nLegal\n|\nApply to YC\n|\nContact\nSearch:",
+        "links": [
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com"
+            },
+            {
+                "text": "Hacker News",
+                "url": "https://news.ycombinator.com/news"
+            },
+            {
+                "text": "new",
+                "url": "https://news.ycombinator.com/newest"
+            },
+            {
+                "text": "past",
+                "url": "https://news.ycombinator.com/front"
+            },
+            {
+                "text": "comments",
+                "url": "https://news.ycombinator.com/newcomments"
+            },
+            {
+                "text": "ask",
+                "url": "https://news.ycombinator.com/ask"
+            },
+            {
+                "text": "show",
+                "url": "https://news.ycombinator.com/show"
+            },
+            {
+                "text": "jobs",
+                "url": "https://news.ycombinator.com/jobs"
+            },
+            {
+                "text": "submit",
+                "url": "https://news.ycombinator.com/submit"
+            },
+            {
+                "text": "login",
+                "url": "https://news.ycombinator.com/login?goto=item%3Fid%3D23348163"
+            },
+            {
+                "text": "Guidelines",
+                "url": "https://news.ycombinator.com/newsguidelines.html"
+            },
+            {
+                "text": "FAQ",
+                "url": "https://news.ycombinator.com/newsfaq.html"
+            },
+            {
+                "text": "Lists",
+                "url": "https://news.ycombinator.com/lists"
+            },
+            {
+                "text": "API",
+                "url": "https://github.com/HackerNews/API"
+            },
+            {
+                "text": "Security",
+                "url": "https://news.ycombinator.com/security.html"
+            },
+            {
+                "text": "Legal",
+                "url": "https://www.ycombinator.com/legal/"
+            },
+            {
+                "text": "Apply to YC",
+                "url": "https://www.ycombinator.com/apply/"
+            },
+            {
+                "text": "Contact",
+                "url": "mailto:hn@ycombinator.com"
+            }
+        ]
+    },
+    {
+        "url": "https://news.ycombinator.com",
+        "title": "Hacker News",
+        "meta_description": "",
+        "headings": {},
+        "content": "Hacker News\nHacker News\nnew\n|\npast\n|\ncomments\n|\nask\n|\nshow\n|\njobs\n|\nsubmit\nlogin\n1.\nYou Are No Longer Invited to Dinner\n(\nderekthompson.org\n)\n198 points\nby\nbarry-cotter\n1 hour ago\n|\nhide\n|\n147 comments\n2.\nAI companies leak data to advertisers [pdf]\n(\njorgegarciaherrero.com\n)\n205 points\nby\ndamaru2\n3 hours ago\n|\nhide\n|\n52 comments\n3.\nDelhi Cut Electricity Loss from 50 to 5 Percent\n(\nieee.org\n)\n15 points\nby\nrbanffy\n19 minutes ago\n|\nhide\n|\n6 comments\n4.\nJeeves. Reasoning improves Jev-like decision models\n(\ngithub.com/posthog\n)\n70 points\nby\nnicowaltz\n1 hour ago\n|\nhide\n|\n27 comments\n5.\n500k facial scans at UK stations yield no arrests, 1 false positive\n(\ntheguardian.com\n)\n114 points\nby\nilamont\n1 hour ago\n|\nhide\n|\n67 comments\n6.\nUsing any C++ library in Godot\n(\nconan.io\n)\n77 points\nby\nczoido\n4 hours ago\n|\nhide\n|\n23 comments\n7.\nUS sanctions force The Netherlands off Microsoft and toward alternative NixOS\n(\ntomshardware.com\n)\n94 points\nby\nmywacaday\n1 hour ago\n|\nhide\n|\n46 comments\n8.\nBooted up in 1993, this server still runs – but not for much longer (2017)\n(\ncomputerworld.com\n)\n105 points\nby\ndoener\n7 hours ago\n|\nhide\n|\n46 comments\n9.\nPhyllotaxis: An audio-reactive LED display\n(\njagi.studio\n)\n176 points\nby\nevakhoury\n9 hours ago\n|\nhide\n|\n24 comments\n10.\nThe systems that no one will test\n(\nchristianperone.com\n)\n98 points\nby\nperone\n7 hours ago\n|\nhide\n|\n36 comments\n11.\nStartup Nights 2026 is comming up on 5-6 Nov. in Switzerland\n(\nstartup-nights.ch\n)\n34 points\nby\nsschueller\n5 hours ago\n|\nhide\n|\n12 comments\n12.\nCalifornia farmers are struggling to sell grapes as demand for wine drops\n(\nkqed.org\n)\n277 points\nby\nrandycupertino\n17 hours ago\n|\nhide\n|\n683 comments\n13.\nShow HN: Raven – The harness of harnesses, built for RSI\n(\ngithub.com/evermind-ai\n)\n14 points\nby\ncyfyifanchen\n3 hours ago\n|\nhide\n|\n6 comments\n14.\nSoftware occlusion culling in Block Game\n(\nenikofox.com\n)\n47 points\nby\nairhangerf15\n6 hours ago\n|\nhide\n|\n4 comments\n15.\nFour CHI '26 papers I wish I wrote\n(\ncountingfromzero.blog\n)\n21 points\nby\nluu\n5 hours ago\n|\nhide\n|\n3 comments\n16.\nPirating the Pirates\n(\nmubi.com\n)\n630 points\nby\npiotrgrabowski\n21 hours ago\n|\nhide\n|\n317 comments\n17.\nTank Body Problem\n(\njimsitu.com\n)\n136 points\nby\njimbooonooo\n12 hours ago\n|\nhide\n|\n30 comments\n18.\nThe Beatles have permeated research papers across academic disciplines\n(\nphys.org\n)\n4 points\nby\npseudolus\n1 hour ago\n|\nhide\n|\ndiscuss\n19.\nMicroLLM Lab – Try 7 tiny LLM's in the browser\n(\nstateofutopia.com\n)\n262 points\nby\nlogicallee\n18 hours ago\n|\nhide\n|\n92 comments\n20.\nEvan Doorbell's Phone Tapes – Brought to You by Telephone World\n(\nevan-doorbell.com\n)\n13 points\nby\nmikecarlton\n4 hours ago\n|\nhide\n|\n3 comments\n21.\nESP32S3 cluster running 1.58-bit (BitNet) Language model\n(\ngithub.com/low-zi-hong\n)\n117 points\nby\nnkko\n15 hours ago\n|\nhide\n|\n26 comments\n22.\n12,000-year-old Göbeklitepe burials explain scattered bones\n(\narchaeologymag.com\n)\n153 points\nby\nyusufaytas\n17 hours ago\n|\nhide\n|\n42 comments\n23.\nJeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms\n(\ngithub.com/firelex\n)\n527 points\nby\nfirelex\n16 hours ago\n|\nhide\n|\n200 comments\n24.\nOptimizing x264 settings and per-title ladders\n(\nstreaminglearningcenter.com\n)\n7 points\nby\ndabinat\n3 hours ago\n|\nhide\n|\ndiscuss\n25.\nNew Cyber-OSINT model released\n(\ntwitter.com/0x0sojalsec\n)\n30 points\nby\nsoltanov\n2 hours ago\n|\nhide\n|\n6 comments\n26.\nUpdated Google Maps shows destruction of the city of Rafah\n(\ntwitter.com/aliabunimah\n)\n714 points\nby\nslowin\n21 hours ago\n|\nhide\n|\n586 comments\n27.\nNvidia wants to put a watchdog chip next to every AI agent\n(\ncnbc.com\n)\n202 points\nby\njonbaer\n21 hours ago\n|\nhide\n|\n254 comments\n28.\nHijacking the PS5's RTMP stream\n(\nyashgarg.dev\n)\n271 points\nby\nibobev\n21 hours ago\n|\nhide\n|\n87 comments\n29.\nSonnet 5.5\n(\nanthropic.com\n)\n833 points\nby\nD2OQZG8l5BI1S06\n19 hours ago\n|\nhide\n|\n563 comments\n30.\nKids turned low-traffic NPR Spotify comments into a secret group chat\n(\nthisamericanlife.org\n)\n441 points\nby\nsimonpure\n21 hours ago\n|\nhide\n|\n237 comments\nMore\nGuidelines\n|\nFAQ\n|\nLists\n|\nAPI\n|\nSecurity\n|\nLegal\n|\nApply to YC\n|\nContact\nSearch:",
+        "links": [
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com"
+            },
+            {
+                "text": "Hacker News",
+                "url": "https://news.ycombinator.com/news"
+            },
+            {
+                "text": "new",
+                "url": "https://news.ycombinator.com/newest"
+            },
+            {
+                "text": "past",
+                "url": "https://news.ycombinator.com/front"
+            },
+            {
+                "text": "comments",
+                "url": "https://news.ycombinator.com/newcomments"
+            },
+            {
+                "text": "ask",
+                "url": "https://news.ycombinator.com/ask"
+            },
+            {
+                "text": "show",
+                "url": "https://news.ycombinator.com/show"
+            },
+            {
+                "text": "jobs",
+                "url": "https://news.ycombinator.com/jobs"
+            },
+            {
+                "text": "submit",
+                "url": "https://news.ycombinator.com/submit"
+            },
+            {
+                "text": "login",
+                "url": "https://news.ycombinator.com/login?goto=news"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49891295&how=up&goto=news"
+            },
+            {
+                "text": "You Are No Longer Invited to Dinner",
+                "url": "https://www.derekthompson.org/p/the-death-of-the-american-host"
+            },
+            {
+                "text": "derekthompson.org",
+                "url": "https://news.ycombinator.com/from?site=derekthompson.org"
+            },
+            {
+                "text": "barry-cotter",
+                "url": "https://news.ycombinator.com/user?id=barry-cotter"
+            },
+            {
+                "text": "1 hour ago",
+                "url": "https://news.ycombinator.com/item?id=49891295"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49891295&goto=news"
+            },
+            {
+                "text": "147 comments",
+                "url": "https://news.ycombinator.com/item?id=49891295"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49890226&how=up&goto=news"
+            },
+            {
+                "text": "AI companies leak data to advertisers [pdf]",
+                "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf"
+            },
+            {
+                "text": "jorgegarciaherrero.com",
+                "url": "https://news.ycombinator.com/from?site=jorgegarciaherrero.com"
+            },
+            {
+                "text": "damaru2",
+                "url": "https://news.ycombinator.com/user?id=damaru2"
+            },
+            {
+                "text": "3 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49890226"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49890226&goto=news"
+            },
+            {
+                "text": "52 comments",
+                "url": "https://news.ycombinator.com/item?id=49890226"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49892245&how=up&goto=news"
+            },
+            {
+                "text": "Delhi Cut Electricity Loss from 50 to 5 Percent",
+                "url": "https://spectrum.ieee.org/delhi-electricity-loss"
+            },
+            {
+                "text": "ieee.org",
+                "url": "https://news.ycombinator.com/from?site=ieee.org"
+            },
+            {
+                "text": "rbanffy",
+                "url": "https://news.ycombinator.com/user?id=rbanffy"
+            },
+            {
+                "text": "19 minutes ago",
+                "url": "https://news.ycombinator.com/item?id=49892245"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49892245&goto=news"
+            },
+            {
+                "text": "6 comments",
+                "url": "https://news.ycombinator.com/item?id=49892245"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49891290&how=up&goto=news"
+            },
+            {
+                "text": "Jeeves. Reasoning improves Jev-like decision models",
+                "url": "https://github.com/PostHog/jeeves"
+            },
+            {
+                "text": "github.com/posthog",
+                "url": "https://news.ycombinator.com/from?site=github.com/posthog"
+            },
+            {
+                "text": "nicowaltz",
+                "url": "https://news.ycombinator.com/user?id=nicowaltz"
+            },
+            {
+                "text": "1 hour ago",
+                "url": "https://news.ycombinator.com/item?id=49891290"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49891290&goto=news"
+            },
+            {
+                "text": "27 comments",
+                "url": "https://news.ycombinator.com/item?id=49891290"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49891480&how=up&goto=news"
+            },
+            {
+                "text": "500k facial scans at UK stations yield no arrests, 1 false positive",
+                "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive"
+            },
+            {
+                "text": "theguardian.com",
+                "url": "https://news.ycombinator.com/from?site=theguardian.com"
+            },
+            {
+                "text": "ilamont",
+                "url": "https://news.ycombinator.com/user?id=ilamont"
+            },
+            {
+                "text": "1 hour ago",
+                "url": "https://news.ycombinator.com/item?id=49891480"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49891480&goto=news"
+            },
+            {
+                "text": "67 comments",
+                "url": "https://news.ycombinator.com/item?id=49891480"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49890051&how=up&goto=news"
+            },
+            {
+                "text": "Using any C++ library in Godot",
+                "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html"
+            },
+            {
+                "text": "conan.io",
+                "url": "https://news.ycombinator.com/from?site=conan.io"
+            },
+            {
+                "text": "czoido",
+                "url": "https://news.ycombinator.com/user?id=czoido"
+            },
+            {
+                "text": "4 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49890051"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49890051&goto=news"
+            },
+            {
+                "text": "23 comments",
+                "url": "https://news.ycombinator.com/item?id=49890051"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49891550&how=up&goto=news"
+            },
+            {
+                "text": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
+                "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027"
+            },
+            {
+                "text": "tomshardware.com",
+                "url": "https://news.ycombinator.com/from?site=tomshardware.com"
+            },
+            {
+                "text": "mywacaday",
+                "url": "https://news.ycombinator.com/user?id=mywacaday"
+            },
+            {
+                "text": "1 hour ago",
+                "url": "https://news.ycombinator.com/item?id=49891550"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49891550&goto=news"
+            },
+            {
+                "text": "46 comments",
+                "url": "https://news.ycombinator.com/item?id=49891550"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49870376&how=up&goto=news"
+            },
+            {
+                "text": "Booted up in 1993, this server still runs – but not for much longer (2017)",
+                "url": "https://www.computerworld.com/article/1673071/booted-up-in-1993-this-server-still-runs-but-not-for-much-longer-2.html"
+            },
+            {
+                "text": "computerworld.com",
+                "url": "https://news.ycombinator.com/from?site=computerworld.com"
+            },
+            {
+                "text": "doener",
+                "url": "https://news.ycombinator.com/user?id=doener"
+            },
+            {
+                "text": "7 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49870376"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49870376&goto=news"
+            },
+            {
+                "text": "46 comments",
+                "url": "https://news.ycombinator.com/item?id=49870376"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49880411&how=up&goto=news"
+            },
+            {
+                "text": "Phyllotaxis: An audio-reactive LED display",
+                "url": "https://jagi.studio/posts/phyllotaxis/"
+            },
+            {
+                "text": "jagi.studio",
+                "url": "https://news.ycombinator.com/from?site=jagi.studio"
+            },
+            {
+                "text": "evakhoury",
+                "url": "https://news.ycombinator.com/user?id=evakhoury"
+            },
+            {
+                "text": "9 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49880411"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49880411&goto=news"
+            },
+            {
+                "text": "24 comments",
+                "url": "https://news.ycombinator.com/item?id=49880411"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49876052&how=up&goto=news"
+            },
+            {
+                "text": "The systems that no one will test",
+                "url": "https://blog.christianperone.com/2026/09/the-systems-that-no-one-will-test/"
+            },
+            {
+                "text": "christianperone.com",
+                "url": "https://news.ycombinator.com/from?site=christianperone.com"
+            },
+            {
+                "text": "perone",
+                "url": "https://news.ycombinator.com/user?id=perone"
+            },
+            {
+                "text": "7 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49876052"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49876052&goto=news"
+            },
+            {
+                "text": "36 comments",
+                "url": "https://news.ycombinator.com/item?id=49876052"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49889633&how=up&goto=news"
+            },
+            {
+                "text": "Startup Nights 2026 is comming up on 5-6 Nov. in Switzerland",
+                "url": "https://www.startup-nights.ch/event/"
+            },
+            {
+                "text": "startup-nights.ch",
+                "url": "https://news.ycombinator.com/from?site=startup-nights.ch"
+            },
+            {
+                "text": "sschueller",
+                "url": "https://news.ycombinator.com/user?id=sschueller"
+            },
+            {
+                "text": "5 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49889633"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49889633&goto=news"
+            },
+            {
+                "text": "12 comments",
+                "url": "https://news.ycombinator.com/item?id=49889633"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49883539&how=up&goto=news"
+            },
+            {
+                "text": "California farmers are struggling to sell grapes as demand for wine drops",
+                "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops"
+            },
+            {
+                "text": "kqed.org",
+                "url": "https://news.ycombinator.com/from?site=kqed.org"
+            },
+            {
+                "text": "randycupertino",
+                "url": "https://news.ycombinator.com/user?id=randycupertino"
+            },
+            {
+                "text": "17 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49883539"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49883539&goto=news"
+            },
+            {
+                "text": "683 comments",
+                "url": "https://news.ycombinator.com/item?id=49883539"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49890647&how=up&goto=news"
+            },
+            {
+                "text": "Show HN: Raven – The harness of harnesses, built for RSI",
+                "url": "https://github.com/EverMind-AI/Raven"
+            },
+            {
+                "text": "github.com/evermind-ai",
+                "url": "https://news.ycombinator.com/from?site=github.com/evermind-ai"
+            },
+            {
+                "text": "cyfyifanchen",
+                "url": "https://news.ycombinator.com/user?id=cyfyifanchen"
+            },
+            {
+                "text": "3 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49890647"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49890647&goto=news"
+            },
+            {
+                "text": "6 comments",
+                "url": "https://news.ycombinator.com/item?id=49890647"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49866783&how=up&goto=news"
+            },
+            {
+                "text": "Software occlusion culling in Block Game",
+                "url": "https://enikofox.com/posts/software-rendered-occlusion-culling-in-block-game/"
+            },
+            {
+                "text": "enikofox.com",
+                "url": "https://news.ycombinator.com/from?site=enikofox.com"
+            },
+            {
+                "text": "airhangerf15",
+                "url": "https://news.ycombinator.com/user?id=airhangerf15"
+            },
+            {
+                "text": "6 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49866783"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49866783&goto=news"
+            },
+            {
+                "text": "4 comments",
+                "url": "https://news.ycombinator.com/item?id=49866783"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49863594&how=up&goto=news"
+            },
+            {
+                "text": "Four CHI '26 papers I wish I wrote",
+                "url": "https://countingfromzero.blog/2026/04/24/four-chi-26-papers-i-wish-i-wrote/"
+            },
+            {
+                "text": "countingfromzero.blog",
+                "url": "https://news.ycombinator.com/from?site=countingfromzero.blog"
+            },
+            {
+                "text": "luu",
+                "url": "https://news.ycombinator.com/user?id=luu"
+            },
+            {
+                "text": "5 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49863594"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49863594&goto=news"
+            },
+            {
+                "text": "3 comments",
+                "url": "https://news.ycombinator.com/item?id=49863594"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49880036&how=up&goto=news"
+            },
+            {
+                "text": "Pirating the Pirates",
+                "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates"
+            },
+            {
+                "text": "mubi.com",
+                "url": "https://news.ycombinator.com/from?site=mubi.com"
+            },
+            {
+                "text": "piotrgrabowski",
+                "url": "https://news.ycombinator.com/user?id=piotrgrabowski"
+            },
+            {
+                "text": "21 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49880036"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49880036&goto=news"
+            },
+            {
+                "text": "317 comments",
+                "url": "https://news.ycombinator.com/item?id=49880036"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49886482&how=up&goto=news"
+            },
+            {
+                "text": "Tank Body Problem",
+                "url": "http://www.jimsitu.com"
+            },
+            {
+                "text": "jimsitu.com",
+                "url": "https://news.ycombinator.com/from?site=jimsitu.com"
+            },
+            {
+                "text": "jimbooonooo",
+                "url": "https://news.ycombinator.com/user?id=jimbooonooo"
+            },
+            {
+                "text": "12 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49886482"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49886482&goto=news"
+            },
+            {
+                "text": "30 comments",
+                "url": "https://news.ycombinator.com/item?id=49886482"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49859863&how=up&goto=news"
+            },
+            {
+                "text": "The Beatles have permeated research papers across academic disciplines",
+                "url": "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html"
+            },
+            {
+                "text": "phys.org",
+                "url": "https://news.ycombinator.com/from?site=phys.org"
+            },
+            {
+                "text": "pseudolus",
+                "url": "https://news.ycombinator.com/user?id=pseudolus"
+            },
+            {
+                "text": "1 hour ago",
+                "url": "https://news.ycombinator.com/item?id=49859863"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49859863&goto=news"
+            },
+            {
+                "text": "discuss",
+                "url": "https://news.ycombinator.com/item?id=49859863"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49882781&how=up&goto=news"
+            },
+            {
+                "text": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+                "url": "https://stateofutopia.com/experiments/microllmlab/"
+            },
+            {
+                "text": "stateofutopia.com",
+                "url": "https://news.ycombinator.com/from?site=stateofutopia.com"
+            },
+            {
+                "text": "logicallee",
+                "url": "https://news.ycombinator.com/user?id=logicallee"
+            },
+            {
+                "text": "18 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49882781"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49882781&goto=news"
+            },
+            {
+                "text": "92 comments",
+                "url": "https://news.ycombinator.com/item?id=49882781"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49890054&how=up&goto=news"
+            },
+            {
+                "text": "Evan Doorbell's Phone Tapes – Brought to You by Telephone World",
+                "url": "https://evan-doorbell.com/"
+            },
+            {
+                "text": "evan-doorbell.com",
+                "url": "https://news.ycombinator.com/from?site=evan-doorbell.com"
+            },
+            {
+                "text": "mikecarlton",
+                "url": "https://news.ycombinator.com/user?id=mikecarlton"
+            },
+            {
+                "text": "4 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49890054"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49890054&goto=news"
+            },
+            {
+                "text": "3 comments",
+                "url": "https://news.ycombinator.com/item?id=49890054"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49884625&how=up&goto=news"
+            },
+            {
+                "text": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+                "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster"
+            },
+            {
+                "text": "github.com/low-zi-hong",
+                "url": "https://news.ycombinator.com/from?site=github.com/low-zi-hong"
+            },
+            {
+                "text": "nkko",
+                "url": "https://news.ycombinator.com/user?id=nkko"
+            },
+            {
+                "text": "15 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49884625"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49884625&goto=news"
+            },
+            {
+                "text": "26 comments",
+                "url": "https://news.ycombinator.com/item?id=49884625"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49855059&how=up&goto=news"
+            },
+            {
+                "text": "12,000-year-old Göbeklitepe burials explain scattered bones",
+                "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/"
+            },
+            {
+                "text": "archaeologymag.com",
+                "url": "https://news.ycombinator.com/from?site=archaeologymag.com"
+            },
+            {
+                "text": "yusufaytas",
+                "url": "https://news.ycombinator.com/user?id=yusufaytas"
+            },
+            {
+                "text": "17 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49855059"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49855059&goto=news"
+            },
+            {
+                "text": "42 comments",
+                "url": "https://news.ycombinator.com/item?id=49855059"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49883844&how=up&goto=news"
+            },
+            {
+                "text": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+                "url": "https://github.com/firelex/jeff"
+            },
+            {
+                "text": "github.com/firelex",
+                "url": "https://news.ycombinator.com/from?site=github.com/firelex"
+            },
+            {
+                "text": "firelex",
+                "url": "https://news.ycombinator.com/user?id=firelex"
+            },
+            {
+                "text": "16 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49883844"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49883844&goto=news"
+            },
+            {
+                "text": "200 comments",
+                "url": "https://news.ycombinator.com/item?id=49883844"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49858158&how=up&goto=news"
+            },
+            {
+                "text": "Optimizing x264 settings and per-title ladders",
+                "url": "https://streaminglearningcenter.com/articles/optimizing-x264-settings-and-per-title-ladders.html"
+            },
+            {
+                "text": "streaminglearningcenter.com",
+                "url": "https://news.ycombinator.com/from?site=streaminglearningcenter.com"
+            },
+            {
+                "text": "dabinat",
+                "url": "https://news.ycombinator.com/user?id=dabinat"
+            },
+            {
+                "text": "3 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49858158"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49858158&goto=news"
+            },
+            {
+                "text": "discuss",
+                "url": "https://news.ycombinator.com/item?id=49858158"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49890829&how=up&goto=news"
+            },
+            {
+                "text": "New Cyber-OSINT model released",
+                "url": "https://twitter.com/0x0SojalSec/status/2104736980768866439"
+            },
+            {
+                "text": "twitter.com/0x0sojalsec",
+                "url": "https://news.ycombinator.com/from?site=twitter.com/0x0sojalsec"
+            },
+            {
+                "text": "soltanov",
+                "url": "https://news.ycombinator.com/user?id=soltanov"
+            },
+            {
+                "text": "2 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49890829"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49890829&goto=news"
+            },
+            {
+                "text": "6 comments",
+                "url": "https://news.ycombinator.com/item?id=49890829"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49879645&how=up&goto=news"
+            },
+            {
+                "text": "Updated Google Maps shows destruction of the city of Rafah",
+                "url": "https://twitter.com/AliAbunimah/status/2103890594137309425"
+            },
+            {
+                "text": "twitter.com/aliabunimah",
+                "url": "https://news.ycombinator.com/from?site=twitter.com/aliabunimah"
+            },
+            {
+                "text": "slowin",
+                "url": "https://news.ycombinator.com/user?id=slowin"
+            },
+            {
+                "text": "21 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49879645"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49879645&goto=news"
+            },
+            {
+                "text": "586 comments",
+                "url": "https://news.ycombinator.com/item?id=49879645"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49879883&how=up&goto=news"
+            },
+            {
+                "text": "Nvidia wants to put a watchdog chip next to every AI agent",
+                "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+            },
+            {
+                "text": "cnbc.com",
+                "url": "https://news.ycombinator.com/from?site=cnbc.com"
+            },
+            {
+                "text": "jonbaer",
+                "url": "https://news.ycombinator.com/user?id=jonbaer"
+            },
+            {
+                "text": "21 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49879883"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49879883&goto=news"
+            },
+            {
+                "text": "254 comments",
+                "url": "https://news.ycombinator.com/item?id=49879883"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49879702&how=up&goto=news"
+            },
+            {
+                "text": "Hijacking the PS5's RTMP stream",
+                "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/"
+            },
+            {
+                "text": "yashgarg.dev",
+                "url": "https://news.ycombinator.com/from?site=yashgarg.dev"
+            },
+            {
+                "text": "ibobev",
+                "url": "https://news.ycombinator.com/user?id=ibobev"
+            },
+            {
+                "text": "21 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49879702"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49879702&goto=news"
+            },
+            {
+                "text": "87 comments",
+                "url": "https://news.ycombinator.com/item?id=49879702"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49881850&how=up&goto=news"
+            },
+            {
+                "text": "Sonnet 5.5",
+                "url": "https://www.anthropic.com/claude-sonnet-5-5"
+            },
+            {
+                "text": "anthropic.com",
+                "url": "https://news.ycombinator.com/from?site=anthropic.com"
+            },
+            {
+                "text": "D2OQZG8l5BI1S06",
+                "url": "https://news.ycombinator.com/user?id=D2OQZG8l5BI1S06"
+            },
+            {
+                "text": "19 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49881850"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49881850&goto=news"
+            },
+            {
+                "text": "563 comments",
+                "url": "https://news.ycombinator.com/item?id=49881850"
+            },
+            {
+                "text": "",
+                "url": "https://news.ycombinator.com/vote?id=49879697&how=up&goto=news"
+            },
+            {
+                "text": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+                "url": "https://www.thisamericanlife.org/897/transcript"
+            },
+            {
+                "text": "thisamericanlife.org",
+                "url": "https://news.ycombinator.com/from?site=thisamericanlife.org"
+            },
+            {
+                "text": "simonpure",
+                "url": "https://news.ycombinator.com/user?id=simonpure"
+            },
+            {
+                "text": "21 hours ago",
+                "url": "https://news.ycombinator.com/item?id=49879697"
+            },
+            {
+                "text": "hide",
+                "url": "https://news.ycombinator.com/hide?id=49879697&goto=news"
+            },
+            {
+                "text": "237 comments",
+                "url": "https://news.ycombinator.com/item?id=49879697"
+            },
+            {
+                "text": "More",
+                "url": "https://news.ycombinator.com?p=2"
+            },
+            {
+                "text": "Guidelines",
+                "url": "https://news.ycombinator.com/newsguidelines.html"
+            },
+            {
+                "text": "FAQ",
+                "url": "https://news.ycombinator.com/newsfaq.html"
+            },
+            {
+                "text": "Lists",
+                "url": "https://news.ycombinator.com/lists"
+            },
+            {
+                "text": "API",
+                "url": "https://github.com/HackerNews/API"
+            },
+            {
+                "text": "Security",
+                "url": "https://news.ycombinator.com/security.html"
+            },
+            {
+                "text": "Legal",
+                "url": "https://www.ycombinator.com/legal/"
+            },
+            {
+                "text": "Apply to YC",
+                "url": "https://www.ycombinator.com/apply/"
+            },
+            {
+                "text": "Contact",
+                "url": "mailto:hn@ycombinator.com"
+            }
+        ]
+    }
+]

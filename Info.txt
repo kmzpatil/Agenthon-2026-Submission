@@ -1,0 +1,714 @@
+SQA
+Agenthon
+Home
+About
+Compete
+Guides
+Past Events
+Announcements
+Resources
+My Account
+My Profile
+My Team
+Sign Out
+Tracks
+Protocol
+Leaderboard
+Timeline
+Awards
+Call for Papers
+Agenthon Submissions Deadline: October 12th, 23:59 AoE
+(October 13th at 7:59 AM New York, October 13th at 12:59 PM London, October 13th at 7:59 PM Singapore)
+Announcing Competition Awards!
+Call for Papers: Poster Sessions, Atlanta!
+Paper Submissions Deadline: September 30th, 23:59 AoE
+(October 1st at 7:59 AM New York, October 1st at 12:59 PM London, October 1st at 7:59 PM Singapore)
+NeurIPS 2026 Competition Track
+Agenthon 2026
+Verifiable AI for quantitative finance.
+
+A four-track competition testing whether AI agents can produce finance outputs that survive automated, leakage-controlled, cheat-resistant evaluation.
+
+Explore tracks
+How scoring works
+Agenthon 2026 logo
+Submission
+Docker agent
+Admissibility
+g0-g3 gates
+Ranking
+Track metrics
+Awards
+
+$1,500, $1,000 and $500 in every track.
+The first, second and third teams in each of the four tracks win cash awards: $12,000 in total.
+
+Award details
+Call for papers · NeurIPS 2026 workshop, Atlanta, 12 December
+
+Present your work at the Agenthon workshop.
+Papers are due Wednesday 30 September at 23:59 AoE. Decisions follow by Friday 2 October at 23:59 AoE.
+
+Submit a paper
+Details
+We're delighted to welcome NVIDIA, Bloomberg and AllianceBernstein as sponsors of Agenthon 2026. Thank you for your support, for helping us organize the competition, and for collaborating with us on its science and task development. Meet our sponsors
+
+Key dates
+
+Key dates.
+Registration runs from 17 August to 12 October 2026. Registration and Development close together at 23:59 Anywhere on Earth (AoE, UTC−12) on 12 October. The last Development runs start by 20:00 UTC on 12 October: an upload that has not started by then is not run. The evaluation fleet is in scheduled maintenance on 13 October from 08:00 to 12:00 UTC, when the Final + Verification phase opens.
+
+17 Aug – 12 Oct
+Registration
+Sign up and form your team.
+
+28 Aug – 12 Oct
+Development
+Public practice repositories, iteration, and the validation leaderboard.
+
+30 Sep
+Call for papers closes
+Papers for the NeurIPS workshop are due at 23:59 AoE. How to submit.
+
+13 – 25 Oct
+Final + Verification
+One submission per entered track is evaluated on sealed held-out units; organizers rerun leading submissions and review reproducibility within the same phase.
+
+Sat 12 Dec
+Workshop at NeurIPS, Atlanta
+The Agenthon workshop, with final presentations by the winners, in Atlanta, Georgia.
+
+The competition closes with a workshop and final presentations from the winning teams at NeurIPS in Atlanta, Georgia, on Saturday 12 December. All dates are given in the official rules, which govern if anything here is out of step.
+
+Teams
+
+Enter as a team of one to three.
+You can compete alone or with up to two teammates. You join one team and stay on it, and that one team can enter as many of the four tracks as it wants.
+
+Registration is per team, and only registered teams can submit solutions or appear on the leaderboard. Your team uses one account on the competition platform, chosen by the team — the FAQ explains what that means for everyone else on the team.
+
+Have a question about entering? Start with the FAQ.
+
+Core question
+
+Can AI agents produce finance answers that can be checked by machine?
+Agenthon extends the Alphathon program into its first NeurIPS edition. The competition keeps the four-track structure and hard finance setting, while adding sealed held-out data, automated leakage controls, reproducible reruns, and public leaderboards.
+
+Agents in all four tracks run in sandboxed Docker containers without general internet access. Supported Coding, Forecasting and Explainability submissions can call House Nemotron through a restricted connection. Simulation has no network access. Build required dependencies and permitted artifacts into your image before evaluation.
+
+Four tracks
+
+Same competition spine, four finance problems.
+T1 Coding
+Quant-finance coding agents
+Build a Docker agent that solves quantitative finance coding tasks under pytest and financial-invariant checks.
+
+Verb
+solve
+Metric
+pass@1
+Gate
+pytest + invariants
+T2 Forecasting
+Reasoning-augmented time series
+Forecast future panels using time-series data plus a time-stamped text corpus. The score evaluates the forecast distribution; information uplift is a research aim.
+
+Verb
+forecast
+Metric
+CRPS composite
+Gate
+as-of cutoff + calibration
+T3 Simulation
+Accelerated market simulation
+Submit an ABIDES-compatible simulator that is faster while preserving matching-engine semantics and market stylized facts. Development results are practice feedback, not controlled Final timing.
+
+Verb
+simulate
+Metric
+events/sec
+Gate
+semantic regression
+T4 Explainability
+Evidence-grounded prediction
+Predict labels, values, or rankings over tabular entities, supported by a frozen evidence corpus. Follow the track guide for prediction, evidence and reasoning evaluation.
+
+Verb
+analyze
+Metric
+Track 4 composite
+Gate
+faithfulness + embargo
+Protocol
+
+Submit, check, score.
+Each unit is checked for admissibility and evaluated using its track's scoring rules. Participant failures remain in the evaluation denominator; organizer faults are handled separately. If two Final submissions finish a track with the same ranking score, the tie is broken in favour of the one uploaded earlier.
+
+01
+Submit
+Upload the toolkit-generated ZIP identifying your agent image and proving team registration.
+
+02
+Check
+g0-g3 verify integrity, schema, cutoff/resource rules, and domain semantics.
+
+03
+Score
+Track-specific scoring produces Development feedback. Track 1 uses pass@1 without a confidence interval.
+
+Public/private firewall
+
+Transparent grading, sealed answers.
+Each track has a public practice repo and a private sealed exam repo. Public repos include practice tasks, examples, local checks, available baselines and participant docs. Private repos hold evaluation tasks, reference answers, scoring material and audit records.
+
+Public practice
+Private exam
+Public practice units
+Private-test held-out units
+Examples, local checks and available baselines
+Oracle solutions and final scorer
+Manifest and canary safety checks
+Canary registry and audit logs
+Leaderboard
+
+Competition scores, one track at a time.
+Development leaderboards on agenthon.net are public and visible to everyone. Each track uses its own scale. Higher is better for the displayed leaderboard scores; the raw Forecasting loss is converted for this display. Use CodaBench for uploads and processing status. Follow the logged-in website for submission opening status. From 5 October 2026, 00:00 AoE (12:00 UTC), the Track 1 board ranks only runs uploaded after 25 September 2026 at 05:00 UTC, for every team (Track 1 README, rules 8 and 9).
+
+The leaderboard is updated periodically from the competition platform.
+
+T1 Coding
+T1 Coding: teams 1–25 of 50
+
+Rank
+Team
+Score
+1
+Eyyyyyy
+0.9884
+2
+in3lab
+0.9767
+3
+Saifuddin
+0.7209
+4
+Proxima
+0.4884
+5
+Arsen Ibragimov
+0.2907
+6
+Yan Su
+0.2674
+7
+Kaile
+0.2442
+8
+Cornfield Chase
+0.2326
+9
+Autonomous Alpha
+0.2209
+10
+uranus
+0.2093
+11
+lingsio
+0.2069
+12
+APTAPT
+0.1977
+12
+Husky River Trading
+0.1977
+14
+Tengen Toppa
+0.1860
+14
+eoo0m
+0.1860
+16
+Gold Miner
+0.1839
+16
+Duo_tech
+0.1839
+18
+Warkop PuteraPrakoso
+0.1744
+18
+abc123
+0.1744
+20
+Powerhouse
+0.1628
+21
+Money Miner
+0.1512
+21
+YIC Quant
+0.1512
+23
+pranshu rastogi
+0.1494
+24
+verifiquant
+0.1395
+24
+Pluvia
+0.1395
+1–25
+26–50
+T2 Forecasting
+T2 Forecasting: teams 1–25 of 66
+
+Rank
+Team
+Score
+1
+Made in Heaven
+-0.6301
+2
+Ywin
+-0.7858
+3
+F1_1
+-0.8023
+4
+Nexus of f(x)
+-0.8184
+5
+Yan Su
+-0.8364
+6
+Warkop PuteraPrakoso
+-0.8397
+7
+alpha-extractor
+-0.8928
+8
+labubu666
+-0.9011
+9
+Samoyed
+-0.9292
+10
+urayaha
+-0.9372
+11
+Garros Solo Lab
+-0.9383
+12
+Formaggio
+-0.9399
+13
+abc123
+-0.9439
+14
+Autonomous Alpha
+-0.9476
+15
+Husky River Trading
+-0.9498
+16
+in3lab
+-0.9511
+17
+Super Debugging
+-0.9528
+18
+Arsen Ibragimov
+-0.9535
+19
+JJ LAB
+-0.9541
+20
+Cornfield Chase
+-0.9586
+21
+AsOf Quant
+-0.9632
+22
+DKYnumber1
+-0.9672
+23
+Liqourena
+-0.9782
+24
+pluuuuuus
+-0.9794
+25
+Just-in-Time
+-0.9803
+1–25
+26–50
+51–66
+T3 Simulation
+T3 Simulation: teams 1–25 of 33
+
+Rank
+Team
+Score
+1
+abc123
+10000000.0000
+1
+recently rejected
+10000000.0000
+3
+in3lab
+9958938.1374
+4
+lingsio
+9911384.7399
+5
+Quantumonster
+9911257.6986
+6
+Warkop PuteraPrakoso
+9886534.1006
+7
+Cornfield Chase
+9686877.6757
+8
+Arsen Ibragimov
+9531655.5350
+9
+Proof of Alpha
+9126164.4816
+10
+Saifuddin
+8859896.6544
+11
+Made in Heaven
+8831683.7916
+12
+PA-Agent
+8829274.7683
+13
+Yan Su
+6352982.2396
+14
+Autonomous Alpha
+5291223.9205
+15
+Alpha Male
+3918338.3250
+16
+GenerationalUnawareness
+3873413.0070
+17
+Ablation
+3452033.5818
+18
+YIC Quant
+3119388.3309
+19
+chistopat
+2841771.3068
+20
+Money Miner
+2743568.6870
+21
+chilli
+1462525.3323
+22
+Aamir Abdul Azeez
+50971.9152
+23
+Banana Kingdom
+29447.2373
+24
+krnb
+27054.2153
+25
+Jade
+25262.2013
+1–25
+26–33
+T4 Explainability
+T4 Explainability: teams 1–25 of 51
+
+Rank
+Team
+Score
+1
+GANisok
+0.3474
+2
+Warkop PuteraPrakoso
+0.3134
+3
+Autonomous Alpha
+0.3097
+4
+in3lab
+0.2835
+5
+lingsio
+0.2694
+6
+Garros Solo Lab
+0.2670
+7
+AAAA
+0.2570
+8
+TradeFlare
+0.2516
+9
+Yan Su
+0.2514
+10
+polarbear
+0.2497
+11
+Pressforward
+0.2446
+12
+Genshin, launch!
+0.2367
+13
+Arsen Ibragimov
+0.2205
+14
+PSS_
+0.2183
+15
+AAIA
+0.2141
+16
+WEI-SPBU
+0.2134
+17
+YIC Quant
+0.1959
+18
+Alpha on Belay
+0.1955
+19
+Husky River Trading
+0.1872
+20
+passerbybye
+0.1841
+21
+yohoho
+0.1813
+22
+Saifuddin
+0.1768
+23
+NeneTeam
+0.1655
+24
+zhuozhuowang
+0.1621
+25
+Just-in-Time
+0.1560
+1–25
+26–50
+51
+2026 phases
+
+Development, then Final + Verification.
+Development runs through 12 October 2026. The joint Final + Verification phase runs from 13 to 25 October 2026. Registration and Development close on 12 October at 23:59 Anywhere on Earth (AoE, UTC−12). Final + Verification closes on 25 October at 23:59 AoE.
+
+Current phase
+Development is live · coding ends Monday, October 12th, 23:59 AoE
+Teams practice and iterate with the public starter packages. Submission opening is announced separately.
+
+55%
+complete
+Live
+Aug 28 - Oct 12
+Development
+Teams practice and iterate with the public starter packages. Submission opening is announced separately.
+
+Upcoming
+Oct 13 - Oct 25
+Final + Verification
+One submission per entered track is evaluated on sealed private-test units. Organizers rerun leading submissions and review reproducibility in the same phase. There is no separate verification submission. Run outputs, logs, and score files stay hidden.
+
+Awards
+
+Cash awards in all four tracks.
+The top three teams in each track win a cash award, decided by the final standings after verification. That is $3,000 per track and $12,000 in total.
+
+1st place
+$1,500
+In each of the four tracks.
+
+2nd place
+$1,000
+In each of the four tracks.
+
+3rd place
+$500
+In each of the four tracks.
+
+Amounts are in US dollars. A team's award is split equally among its registered members. Eligibility, verification, tax and payment requirements are set by the official rules, and a confirmed winner who accepts an award publishes the code needed to reproduce the method.
+
+Scientific outputs
+
+Agenthon is designed to explain failures, not just rank winners.
+Cross-track failure map
+Gate failures are labeled and aggregated to show where finance agents break down.
+
+Information uplift
+T2 investigates whether text and reasoning improve forecasts; this is not a separate scored component.
+
+Speed-realism frontier
+T3 measures throughput only after semantic fidelity and stylized facts survive checks.
+
+Faithfulness under embargo
+T4 requires evidence-backed predictions that do not cite future or unsupported facts.
+
+Call for papers
+
+Present your work at the Agenthon workshop at NeurIPS 2026.
+We invite papers on AI and quantitative finance for the Agenthon 2026 workshop at NeurIPS in Atlanta on Saturday 12 December. Accepted papers are presented as posters. Submissions are open to everyone, whether or not you are competing in Agenthon.
+
+Open now
+Submissions open
+Send your paper through the submission form.
+
+Wed 30 Sep, 23:59 AoE
+Submission deadline
+The form closes at the deadline.
+
+Fri 2 Oct, 23:59 AoE
+Decisions
+We email every submitting author with our decision.
+
+Topics
+AI agents for quantitative research and financial software
+Forecasting, including probabilistic and text-informed forecasts
+Market simulation and agent-based models
+Explainable, evidence-grounded prediction
+Optimization and portfolio construction
+Reinforcement learning and sequential decision-making
+Autonomous and multi-agent systems
+Evaluation, verification and benchmarks for AI in finance
+We also strongly encourage high-quality work in machine learning, optimization and AI more broadly, even without a finance application.
+
+Format
+Full papers or short papers, in any format and length. Submit one PDF.
+
+The workshop is non-archival, so work under review or published elsewhere is welcome.
+
+At least one author presents the poster in person in Atlanta.
+
+How to submit
+Use the submission form. It asks you to sign in with a Google account to upload your PDF, and for the email on the presenting author's NeurIPS account.
+
+We handle submissions under our Privacy Notice.
+
+Submit a paper
+Our Supporters
+
+Sponsor Agenthon 2026.
+A number of sponsorship tiers and opportunities are available, including monetary and awards sponsorship, event space, data, infrastructure, and compute.
+
+Platinum
+NVIDIA
+Sponsor & Technology Provider
+Gold
+Bloomberg
+Sponsor
+Silver
+AllianceBernstein
+Sponsor
+Technology
+Nebius
+Cloud infrastructure
+Agenthon Questions and Tasks are of real relevance to hedge funds and asset managers, spanning alpha forecasting, portfolio optimization, computational statistics, machine learning, and AI. Questions are provided jointly by the SQA, CEWIT and our Question Partners.
+
+See Questions 2025 for last year's questions and a feel for Agenthon priorities.
+
+Inquire about sponsoring
+Organizing Committee
+
+Thank you from the organizers.
+Lead Organizers
+Pawel Polak
+Assistant Professor, Department of Applied Mathematics and Statistics, Stony Brook University
+Vice President, Society of Quantitative Analysts
+
+Website · LinkedIn
+
+Christos Koutsoyannis
+Chief Investment Officer, Atlas Ridge Capital
+Adjunct Professor, NYU Courant
+Executive Advisory Board, Columbia Business School, Program for Financial Studies
+
+Website · LinkedIn
+
+Industry Co-Organizers
+David Rosenberg
+Head of Machine Learning Strategy, CTO Office
+Bloomberg, Toronto, Canada
+
+LinkedIn
+
+Gary Kazantsev
+Head of Quant Technology Strategy, Office of the CTO
+Bloomberg, New York, USA
+
+LinkedIn
+
+Ioana Boier
+Global Head of Capital Markets Strategy
+NVIDIA Corporation, USA
+
+LinkedIn
+
+Track Leads
+T1 · Coding
+
+Quant-finance coding agents
+Zhikang Dong
+Track Lead T1
+Independent Researcher
+
+LinkedIn · GitHub
+
+T2 · Forecasting
+
+Reasoning-augmented time series
+Ruolan Sun
+Track Lead T2
+Ph.D. Student, Stony Brook University
+
+LinkedIn · GitHub
+
+T3 · Simulation
+
+Accelerated market simulation
+Haohan Xu
+Track Lead T3
+Ph.D. Student, Stony Brook University
+
+LinkedIn · GitHub
+
+T4 · Explainability
+
+Evidence-grounded prediction
+Mathew Thiel
+Track Lead T4
+Quant Research Analyst, validityBase
+
+LinkedIn · GitHub
+
+Alphathon presents Agenthon 2026
+Organized by SQA · CEWIT, Stony Brook University
+About
+Compete
+Past Events
+Rules
+Terms
+Privacy
+Licensing
+Contact
+Copyright © 2026: agenthon.net. All rights reserved.
