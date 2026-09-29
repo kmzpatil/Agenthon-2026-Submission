@@ -7,6 +7,9 @@ param (
 
 $ErrorActionPreference = "Stop"
 
+# Refresh PATH for newly installed tools (like Docker)
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
 # Set configuration based on Track
 $ImageName = "ghcr.io/$($GithubUsername.ToLower())/agenthon-$( $Track.ToLower() )"
 $ImageTag = "$ImageName`:latest"
@@ -59,16 +62,16 @@ $SubmissionJson = @"
 "@
 Set-Content -Path "submission.json" -Value $SubmissionJson
 
-# 5. Install Toolkit
-Write-Host "`n[5/5] Installing official qfbench2-common toolkit..." -ForegroundColor Yellow
-pip install "qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.4#subdirectory=common" -q
+# 5. Install Toolkit and Package final ZIP via Docker (requires Python 3.13)
+Write-Host "`n[5/5] Packaging final ZIP inside a Python 3.13 container..." -ForegroundColor Yellow
 
-# 6. Package final ZIP
-Write-Host "`nPackaging final ZIP via qfbench2..." -ForegroundColor Yellow
-$KeyFile = "temp_team_key.txt"
-Set-Content -Path $KeyFile -Value $TeamKey
-qfbench2 submission pack --descriptor submission.json --team-number $TeamNumber --team-key-file $KeyFile --out "submission_${Track}.zip"
-Remove-Item $KeyFile
+$DockerCmd = "echo `"$TeamKey`" > /tmp/key.txt && chmod 600 /tmp/key.txt && pip install `"qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.4#subdirectory=common`" -q && qfbench2 submission pack --descriptor submission.json --team-number $TeamNumber --team-key-file /tmp/key.txt --out `"submission_${Track}.zip`""
 
-Write-Host "`nSUCCESS! Your submission file 'submission_${Track}.zip' is ready!" -ForegroundColor Green
-Write-Host "Upload this file directly to CodaBench." -ForegroundColor Green
+docker run --rm -v "$($PWD.Path):/app" -w /app python:3.13-slim bash -c $DockerCmd
+
+if (Test-Path "submission_${Track}.zip") {
+    Write-Host "`nSUCCESS! Your submission file 'submission_${Track}.zip' is ready!" -ForegroundColor Green
+    Write-Host "Upload this file directly to CodaBench." -ForegroundColor Green
+} else {
+    Write-Host "`nFAILED to generate ZIP." -ForegroundColor Red
+}

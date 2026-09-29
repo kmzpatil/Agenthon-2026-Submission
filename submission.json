@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.1.0",
+  "interface_version": "2.0",
+  "competition_id": "agenthon2026-simulation-dev",
+  "track": "simulation",
+  "phase": "dev",
+  "category": "simulator",
+  "image_access": "public",
+  "models": [],
+  "license": "MIT",
+  "image": {
+    "registry": "ghcr.io",
+    "repository": "kmzpatil/agenthon-t3",
+    "digest": "sha256:0fa5659ff828e892aead0d42c071e067d0ae7272e3ebf76eae7b01761c89cf6f"
+  }
+}
