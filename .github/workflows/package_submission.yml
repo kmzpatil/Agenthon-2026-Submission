@@ -1,0 +1,109 @@
+name: Agenthon 2026 Submission Packager
+on:
+  workflow_dispatch:
+    inputs:
+      team_number:
+        description: 'Team Number'
+        required: true
+        default: '533'
+      team_key:
+        description: 'Team Key'
+        required: true
+        default: 'fdq5-jDfz-Y4h0-g3zO-SCMN'
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Format repository owner to lowercase
+        run: |
+          echo "REPO=${GITHUB_REPOSITORY_OWNER,,}" >>${GITHUB_ENV}
+          
+      - name: Build and Push T1
+        id: build_t1
+        uses: docker/build-push-action@v5
+        with:
+          context: ./T1_Coder_Agent
+          push: true
+          tags: ghcr.io/${{ env.REPO }}/agenthon-t1:latest
+
+      - name: Build and Push T3
+        id: build_t3
+        uses: docker/build-push-action@v5
+        with:
+          context: ./T3_Simulation
+          push: true
+          tags: ghcr.io/${{ env.REPO }}/agenthon-t3:latest
+          
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          
+      - name: Install qfbench2
+        run: pip install "qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.4#subdirectory=common"
+        
+      - name: Package T1 Submission
+        run: |
+          cat <<EOF > submission.json
+          {
+            "schema_version": "1.1.0",
+            "interface_version": "2.0",
+            "competition_id": "agenthon2026-coding-dev",
+            "track": "coding",
+            "phase": "dev",
+            "category": "api",
+            "image_access": "public",
+            "models": [],
+            "license": "MIT",
+            "image": {
+              "registry": "ghcr.io",
+              "repository": "${{ env.REPO }}/agenthon-t1",
+              "digest": "${{ steps.build_t1.outputs.digest }}"
+            }
+          }
+          EOF
+          echo "${{ github.event.inputs.team_key }}" > temp_team_key.txt
+          qfbench2 submission pack --descriptor submission.json --team-number ${{ github.event.inputs.team_number }} --team-key-file temp_team_key.txt --out submission_T1.zip
+          
+      - name: Package T3 Submission
+        run: |
+          cat <<EOF > submission.json
+          {
+            "schema_version": "1.1.0",
+            "interface_version": "2.0",
+            "competition_id": "agenthon2026-simulation-dev",
+            "track": "simulation",
+            "phase": "dev",
+            "category": "simulator",
+            "image_access": "public",
+            "models": [],
+            "license": "MIT",
+            "image": {
+              "registry": "ghcr.io",
+              "repository": "${{ env.REPO }}/agenthon-t3",
+              "digest": "${{ steps.build_t3.outputs.digest }}"
+            }
+          }
+          EOF
+          qfbench2 submission pack --descriptor submission.json --team-number ${{ github.event.inputs.team_number }} --team-key-file temp_team_key.txt --out submission_T3.zip
+          rm temp_team_key.txt
+          
+      - name: Upload Zips
+        uses: actions/upload-artifact@v4
+        with:
+          name: agenthon-submissions
+          path: |
+            submission_T1.zip
+            submission_T3.zip
